@@ -1,0 +1,54 @@
+# Xcode
+Build/
+build/
+.DS_Store
+*/build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.moved-aside
+*.xccheckout
+Source/FlyDelta/FlyDelta.xcworkspace
+Source/FlyDelta/FlyDelta.xcodeproj/project.xcworkspace/xcshareddata/FlyDelta.xccheckout
+Source/FlyDelta/Podfile.lock
+Source/FlyDelta/Pods
+.idea
+/Source/Hybrid/Resources/public/*/**
+artifacts/**
+config/result
+# MacOS X
+.DS_Store
+
+#XCode Plugin
+Reveal.framework
+Source/FlyDelta/iOSInjectionProject
+*.swp
+*.swo
+**/FlyDelta.xccheckout
+# Intermediate files while building project
+Source/FlyDelta/Logs/
+Source/FlyDelta/ModuleCache/
+Source/FlyDelta/TestResults/
+# Files generated for Sonar
+Source/compile_commands.json
+Source/sonar-reports/
+# info.plist for workspace path
+Source/FlyDelta/info.plist
+profile
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.xccheckout
+
+#CocoaPods
+Pods
+
+#Carthage
+Carthage/Build
